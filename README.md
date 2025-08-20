@@ -1,9 +1,21 @@
 # Bongo Cat Gift Auto Collector
 
-一个用 Python 编写的自动化工具，用于自动收取 Bongo Cat 桌面宠物的礼物。
+Python 自动化工具，用于自动收取 Bongo Cat 桌面宠物的礼物。
 
-## 功能
+## 功能特性
 
-- **自动检测礼物**：实时监测 Bongo Cat 界面中的礼物出现
-- **智能点击收取**：自动定位并点击礼物进行收取
-- **可配置间隔**：支持自定义检测频率，避免过度占用系统资源
+- 🎯 自动检测并收取 Bongo Cat 礼物
+- ⚡ 使用 mss 库高速截图
+- 🖱️ 支持前台点击模式
+- ⚙️ 配置文件驱动，参数可调
+- 🔧 内置测试模式，方便调试
+
+## 快速开始
+
+### 安装依赖
+```bash
+pip install pyautogui pillow mss pywin32 opencv-python
+
+## 配置准备
+截取礼物图片保存为 gift.png
+
