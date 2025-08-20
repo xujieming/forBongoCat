@@ -15,7 +15,3 @@ Python 自动化工具，用于自动收取 Bongo Cat 桌面宠物的礼物。
 ### 安装依赖
 ```bash
 pip install pyautogui pillow mss pywin32 opencv-python
-
-## 配置准备
-截取礼物图片保存为 gift.png
-
